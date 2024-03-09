@@ -1,0 +1,14 @@
+[Default Applications]
+video/mp4=smplayer_enqueue.desktop
+video/x-matroska=smplayer_enqueue.desktop
+x-scheme-handler/lunarclient=launcher.desktop
+x-scheme-handler/discord-562286213059444737=launcher.desktop
+application/octet-stream=org.gnome.TextEditor.desktop
+
+[Added Associations]
+video/mp4=smplayer_enqueue.desktop;
+video/x-matroska=smplayer_enqueue.desktop;
+text/plain=org.gnome.TextEditor.desktop;
+application/x-shellscript=org.gnome.TextEditor.desktop;
+application/octet-stream=org.gnome.TextEditor.desktop;
+text/vnd.trolltech.linguist=code-oss.desktop;

@@ -1,0 +1,27 @@
+[Data Source]
+DisplayName=testobjektccc@gmail.com
+Enabled=true
+Parent=b7d7a1f5a7de0e2f9b3a15c12c5347f7dd70ad9d
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=testobjektccc@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Mail Transport]
+BackendName=smtp
+
+[Smtp Backend]
+ReencodeData=false
+DsnRetFull=false
+DsnNotifySuccess=true
+DsnNotifyFailure=true
+DsnNotifyDelay=true

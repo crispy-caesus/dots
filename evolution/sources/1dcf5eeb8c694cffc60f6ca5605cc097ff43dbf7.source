@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=testobjektccc@gmail.com
+Enabled=true
+Parent=b7d7a1f5a7de0e2f9b3a15c12c5347f7dd70ad9d
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=b07351f084c2328bb036208d89805abb242a9d7e
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=testobjektccc@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
