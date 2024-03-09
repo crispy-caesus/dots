@@ -1,6 +1,0 @@
-2024/03/06-21:00:29.104 16a6f Creating DB /home/crispy/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
-2024/03/06-21:00:29.107 16a6f Reusing MANIFEST /home/crispy/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/03/06-21:02:58.518 16a5a Level-0 table #5: started
-2024/03/06-21:02:58.520 16a5a Level-0 table #5: 7935 bytes OK
-2024/03/06-21:02:58.522 16a5a Delete type=0 #3
-2024/03/06-21:02:58.523 16a5a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
