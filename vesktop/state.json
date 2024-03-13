@@ -3,9 +3,10 @@
     "windowBounds": {
         "x": 64,
         "y": 8,
-        "width": 644,
+        "width": 1296,
         "height": 896
     },
     "maximized": true,
-    "minimized": false
+    "minimized": false,
+    "skippedUpdate": "1.5.1"
 }

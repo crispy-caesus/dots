@@ -1,23 +1,36 @@
-require('nvim-treesitter.configs').setup({
-  highlight = {
-    enable = true
-  },
-  indent = {
-    enable = true
-  },
-  refactor = {
-    highlight_definitions = {
-      enable = true
-    },
-    highlight_current_scope = {
-      enable = true
-    },
-    -- smart_rename = {
-    --   enable = true,
-    --   keymaps = {
-    --     smart_rename = "grn"
-    --   }
-    -- },
-  },
-  ensure_installed = "all"
+require("nvim-treesitter.configs").setup({
+	ensure_installed = {
+		"lua",
+		"python",
+		"javascript",
+		"typescript",
+		"json",
+		"bash",
+		"http",
+		"html",
+		"css",
+		"c",
+		"rust",
+		"java",
+		"gdscript",
+		"make"
+	},
+
+	highlight = {
+		enable = true, -- false will disable the whole extension
+		additional_vim_regex_highlighting = true,
+		disable = { "http" },
+	},
+	indent = {
+		enable = true,
+		disable = { "http" },
+	},
+	autopairs = {
+		enable = true,
+	},
+})
+
+require("ts_context_commentstring").setup({
+	enable = true,
+	enable_autocmd = false,
 })

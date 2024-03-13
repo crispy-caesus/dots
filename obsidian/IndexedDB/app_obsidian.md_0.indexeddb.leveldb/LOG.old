@@ -1,6 +1,0 @@
-2024/03/08-10:56:34.087 649f Reusing MANIFEST /home/crispy/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/03/08-10:56:34.087 649f Recovering log #27
-2024/03/08-10:56:34.092 649f Reusing old log /home/crispy/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000027.log 
-2024/03/08-10:56:38.382 649f Level-0 table #32: started
-2024/03/08-10:56:38.401 649f Level-0 table #32: 1063159 bytes OK
-2024/03/08-10:56:38.412 649f Delete type=0 #27
