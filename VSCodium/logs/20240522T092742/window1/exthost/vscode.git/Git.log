@@ -1,0 +1,23 @@
+2024-05-22 09:27:44.021 [info] Log level: Info
+2024-05-22 09:27:44.021 [info] Validating found git in: "git"
+2024-05-22 09:27:44.021 [info] Using git "2.45.0" from "git"
+2024-05-22 09:27:44.021 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-22 09:27:44.021 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-22 09:27:44.021 [info] Open repository: /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
+2024-05-22 09:27:44.032 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-22 09:27:44.033 [info] > git config --get commit.template [7ms]
+2024-05-22 09:27:44.044 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-22 09:27:44.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-22 09:27:44.050 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-22 09:27:44.173 [info] > git status -z -uall [117ms]
+2024-05-22 09:27:44.192 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-05-22 09:27:44.199 [info] > git config --get commit.template [7ms]
+2024-05-22 09:27:44.200 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-05-22 09:27:44.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2024-05-22 09:27:44.242 [info] > git diff --name-status -z --diff-filter=ADMR 03d9c05cf4ea7c6508034148703040ab00d0c022...refs/remotes/origin/main [37ms]
+2024-05-22 09:27:44.364 [info] > git status -z -uall [113ms]
+2024-05-22 09:27:44.399 [info] > git show --textconv :src/player.py [6ms]
+2024-05-22 09:27:44.400 [info] > git ls-files --stage -- /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d/src/player.py [2ms]
+2024-05-22 09:27:44.405 [info] > git cat-file -s 9c5e482a2ebd5ee0df7d60172433eb38c89d6ab3 [1ms]
+2024-05-22 09:27:44.540 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-22 09:27:49.045 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,10 +1,15 @@
 [Default Applications]
 video/mp4=org.kde.haruna.desktop
-video/x-matroska=smplayer_enqueue.desktop
+video/x-matroska=mpv.desktop
 x-scheme-handler/lunarclient=launcher.desktop
 x-scheme-handler/discord-562286213059444737=launcher.desktop
 application/octet-stream=org.gnome.TextEditor.desktop
 application/pdf=org.gnome.Evince.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-ZQLXK2.desktop
+message/rfc822=userapp-Thunderbird-ZQLXK2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-ZQLXK2.desktop
+image/png=org.gnome.Loupe.desktop
+image/jpeg=org.gnome.Loupe.desktop
 
 [Added Associations]
 video/mp4=mpv.desktop;org.gnome.Totem.desktop;smplayer_enqueue.desktop;kawaii-player.desktop;org.kde.haruna.desktop;
@@ -14,3 +19,8 @@ application/x-shellscript=org.gnome.TextEditor.desktop;
 application/octet-stream=org.gnome.TextEditor.desktop;
 text/vnd.trolltech.linguist=code-oss.desktop;
 application/pdf=org.gnome.Evince.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-ZQLXK2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-ZQLXK2.desktop;
+image/gif=org.gnome.Loupe.desktop;
+image/png=gimp.desktop;org.gnome.Loupe.desktop;
+image/jpeg=org.gnome.Loupe.desktop;

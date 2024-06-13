@@ -1,0 +1,12 @@
+2024-04-19 14:13:29.964 [info] Extension host with pid 8562 started
+2024-04-19 14:13:29.964 [info] Skipping acquiring lock for /home/crispy/.config/VSCodium/User/workspaceStorage/be60f505d9cc2178d4247820fdee230a.
+2024-04-19 14:13:30.055 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-19 14:13:30.063 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-04-19 14:13:30.290 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-19 14:13:30.338 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-19 14:13:30.342 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-19 14:13:30.366 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-19 14:13:30.404 [info] Eager extensions activated
+2024-04-19 14:13:30.433 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-19 14:13:30.435 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-19 14:13:30.569 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Meta>
-		<Version>2.54</Version>
+		<Version>2.56</Version>
 		<PreferUserConfiguration>false</PreferUserConfiguration>
 		<OmitItemsWithDefaultValues>true</OmitItemsWithDefaultValues>
 		<DpiFactorX>1</DpiFactorX>
@@ -9,13 +9,18 @@
 	</Meta>
 	<Application>
 		<LastUsedFile>
-			<Path>../../../run/user/1000/gvfs/google-drive:host=gmail.com,user=testobjektccc/0ADMgRgHO9JsLUk9PVA/1PbWNOT3K1MpABv6C29_CUc0uBYknqHm8/1Z3XhPINGM4V6GGXdSjkXw6orJpw8YlUw</Path>
+			<Path>../../../home/crispy/Documents/keepass/vault.kdbx</Path>
 			<CredProtMode>Obf</CredProtMode>
 			<CredSaveMode>NoSave</CredSaveMode>
 		</LastUsedFile>
 		<MostRecentlyUsed>
 			<MaxItemCount>12</MaxItemCount>
 			<Items>
+				<ConnectionInfo>
+					<Path>../../../home/crispy/Documents/keepass/vault.kdbx</Path>
+					<CredProtMode>Obf</CredProtMode>
+					<CredSaveMode>NoSave</CredSaveMode>
+				</ConnectionInfo>
 				<ConnectionInfo>
 					<Path>../../../run/user/1000/gvfs/google-drive:host=gmail.com,user=testobjektccc/0ADMgRgHO9JsLUk9PVA/1PbWNOT3K1MpABv6C29_CUc0uBYknqHm8/1Z3XhPINGM4V6GGXdSjkXw6orJpw8YlUw</Path>
 					<CredProtMode>Obf</CredProtMode>
@@ -37,11 +42,10 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>218</X>
-		<Y>351</Y>
-		<Width>2060</Width>
-		<Height>1273</Height>
-		<Maximized>true</Maximized>
+		<X>96</X>
+		<Y>16</Y>
+		<Width>1312</Width>
+		<Height>1819</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
 		<SplitterVerticalFrac>0.25</SplitterVerticalFrac>
 		<ToolBar />
@@ -78,7 +82,9 @@
 	</MainWindow>
 	<UI>
 		<TrayIcon />
-		<Hiding />
+		<Hiding>
+			<HideInEntryWindow>false</HideInEntryWindow>
+		</Hiding>
 		<StandardFont>
 			<Family>Microsoft Sans Serif</Family>
 			<Size>8.25</Size>
@@ -136,7 +142,26 @@
 				<DatabasePath>../../../run/user/1000/gvfs/google-drive:host=gmail.com,user=testobjektccc/0ADMgRgHO9JsLUk9PVA/1PbWNOT3K1MpABv6C29_CUc0uBYknqHm8/1Z3XhPINGM4V6GGXdSjkXw6orJpw8YlUw</DatabasePath>
 				<Password>true</Password>
 			</Association>
+			<Association>
+				<DatabasePath>../../../home/crispy/Documents/keepass/vault.kdbx</DatabasePath>
+				<Password>true</Password>
+			</Association>
 		</KeySources>
+		<Duplication />
+		<Print>
+			<MainFont>
+				<Family>Microsoft Sans Serif</Family>
+				<Size>8.25</Size>
+				<GraphicsUnit>Point</GraphicsUnit>
+				<OverrideUIDefault>false</OverrideUIDefault>
+			</MainFont>
+			<PasswordFont>
+				<Family>Courier New</Family>
+				<Size>8.25</Size>
+				<GraphicsUnit>Point</GraphicsUnit>
+				<OverrideUIDefault>false</OverrideUIDefault>
+			</PasswordFont>
+		</Print>
 	</Defaults>
 	<Integration>
 		<HotKeyGlobalAutoType>0</HotKeyGlobalAutoType>

@@ -1,0 +1,25 @@
+2024-04-18 13:44:31.131 [info] Log level: Info
+2024-04-18 13:44:31.131 [info] Validating found git in: "git"
+2024-04-18 13:44:31.131 [info] Using git "2.44.0" from "git"
+2024-04-18 13:44:31.131 [info] > git rev-parse --show-toplevel [5ms]
+2024-04-18 13:44:31.131 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-04-18 13:44:31.131 [info] Open repository: /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
+2024-04-18 13:44:31.145 [info] > git rev-parse --show-toplevel [4ms]
+2024-04-18 13:44:31.145 [info] > git config --get commit.template [8ms]
+2024-04-18 13:44:31.154 [info] > git rev-parse --show-toplevel [4ms]
+2024-04-18 13:44:31.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Tilemap-Grafics-and-Finish refs/remotes/Tilemap-Grafics-and-Finish [4ms]
+2024-04-18 13:44:31.158 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-18 13:44:31.168 [info] > git status -z -uall [6ms]
+2024-04-18 13:44:31.183 [info] > git merge-base refs/heads/Tilemap-Grafics-and-Finish refs/remotes/origin/Tilemap-Grafics-and-Finish [9ms]
+2024-04-18 13:44:31.187 [info] > git config --get commit.template [5ms]
+2024-04-18 13:44:31.190 [info] > git rev-list --count --left-right refs/heads/Tilemap-Grafics-and-Finish...refs/remotes/origin/Tilemap-Grafics-and-Finish [4ms]
+2024-04-18 13:44:31.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Tilemap-Grafics-and-Finish refs/remotes/Tilemap-Grafics-and-Finish [11ms]
+2024-04-18 13:44:31.207 [info] > git diff --name-status -z --diff-filter=ADMR 5905d9fc0683d0e74599884da220df28ab5a1ef1...refs/remotes/origin/Tilemap-Grafics-and-Finish [14ms]
+2024-04-18 13:44:31.241 [info] > git status -z -uall [24ms]
+2024-04-18 13:44:31.651 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-18 13:45:35.636 [info] > git show --textconv :src/Menu.py [4ms]
+2024-04-18 13:45:35.638 [info] > git ls-files --stage -- /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d/src/Menu.py [2ms]
+2024-04-18 13:45:35.642 [info] > git cat-file -s 6a83c8cc0b65d819d5a82319adbf2fc451f3bd39 [1ms]
+2024-04-18 13:45:43.944 [info] > git show --textconv :src/Input.py [9ms]
+2024-04-18 13:45:43.946 [info] > git ls-files --stage -- /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d/src/Input.py [2ms]
+2024-04-18 13:45:43.955 [info] > git cat-file -s 1a75239a1faeb356700bb204027f4777ce436f10 [3ms]

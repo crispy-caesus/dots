@@ -219,7 +219,9 @@
             "ignoreSelf": false,
             "ignoreUsers": "",
             "ignoreChannels": "",
-            "ignoreGuilds": ""
+            "ignoreGuilds": "",
+            "logEdits": true,
+            "logDeletes": true
         },
         "MessageTags": {
             "enabled": false
@@ -493,6 +495,15 @@
         },
         "ResurrectHome": {
             "enabled": false
+        },
+        "BetterSettings": {
+            "enabled": false
+        },
+        "FriendsSince": {
+            "enabled": false
+        },
+        "OverrideForumDefaults": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -505,6 +516,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1710019914857
+        "settingsSyncVersion": 1711826402968
     }
 }

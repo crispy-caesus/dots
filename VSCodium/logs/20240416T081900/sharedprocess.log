@@ -1,0 +1,41 @@
+2024-04-16 08:19:06.723 [info] Getting Manifest... ms-python.debugpy
+2024-04-16 08:19:06.732 [info] Getting Manifest... ms-python.python
+2024-04-16 08:19:07.918 [info] Installing extension: ms-python.python
+2024-04-16 08:19:07.988 [info] Installing extension: ms-python.debugpy
+2024-04-16 08:19:08.335 [info] Getting Manifest... ms-python.python
+2024-04-16 08:19:08.407 [info] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-04-16 08:19:37.742 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /opt/vscodium-bin/resources/app/out/bootstrap-amd.js
+- /opt/vscodium-bin/resources/app/out/bootstrap-fork.js
+2024-04-16 08:19:37.755 [info] Extension signature verification is not done: ms-python.debugpy
+2024-04-16 08:19:38.026 [info] Extracted extension to file:///home/crispy/.vscode-oss/extensions/ms-python.debugpy-2024.4.0-linux-x64: ms-python.debugpy
+2024-04-16 08:19:38.034 [info] Renamed to /home/crispy/.vscode-oss/extensions/ms-python.debugpy-2024.4.0-linux-x64
+2024-04-16 08:19:38.036 [info] Extracting extension completed. ms-python.debugpy
+2024-04-16 08:19:38.044 [info] Marked extension as uninstalled ms-python.debugpy-2024.2.0-linux-x64
+2024-04-16 08:19:38.127 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/crispy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/crispy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35301)
+    at a (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35436)
+    at i.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48171)
+    at i.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38766)
+    at async S.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:21270)
+    at async G.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:134142)
+2024-04-16 08:19:39.941 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /opt/vscodium-bin/resources/app/out/bootstrap-amd.js
+- /opt/vscodium-bin/resources/app/out/bootstrap-fork.js
+2024-04-16 08:19:39.944 [info] Extension signature verification is not done: ms-python.python
+2024-04-16 08:19:40.959 [info] Extracted extension to file:///home/crispy/.vscode-oss/extensions/ms-python.python-2024.4.1-universal: ms-python.python
+2024-04-16 08:19:40.971 [info] Renamed to /home/crispy/.vscode-oss/extensions/ms-python.python-2024.4.1-universal
+2024-04-16 08:19:40.974 [info] Extracting extension completed. ms-python.python
+2024-04-16 08:19:40.984 [info] Extension installed successfully: ms-python.python
+2024-04-16 08:19:40.984 [info] Finished waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-04-16 08:19:40.985 [info] Extension installed successfully: ms-python.debugpy
+2024-04-16 08:19:40.994 [info] Marked extension as uninstalled ms-python.python-2024.2.1-universal
+2024-04-16 08:19:41.061 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/crispy/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/crispy/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35301)
+    at a (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35436)
+    at i.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48171)
+    at i.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38766)
+    at async S.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:21270)
+    at async G.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:134142)

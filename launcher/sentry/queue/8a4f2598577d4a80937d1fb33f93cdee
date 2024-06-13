@@ -1,0 +1,3 @@
+{"sent_at":"2024-03-22T09:51:14.778Z","sdk":{"name":"sentry.javascript.electron","version":"4.15.1"}}
+{"type":"session"}
+{"sid":"82d714f7534846b4bfbd5f69a017ac84","init":true,"started":"2024-03-22T09:36:02.662Z","timestamp":"2024-03-22T09:51:14.778Z","status":"exited","errors":0,"did":"crispy_caesus","duration":912.11576795578,"attrs":{"release":"launcher@3.2.3","environment":"production"}}

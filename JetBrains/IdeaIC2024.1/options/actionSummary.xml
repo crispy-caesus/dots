@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Stop">
+      <i c="1" l="1717059737403" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1717375850067" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1717375765368" />
+    </e>
+    <e n="com.intellij.ui.components.BasicOptionButtonUI$ActionDelegate">
+      <i c="1" l="1717059729201" />
+    </e>
+  </component>
+</application>

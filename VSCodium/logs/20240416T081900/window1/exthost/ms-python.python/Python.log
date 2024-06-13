@@ -1,0 +1,36 @@
+2024-04-16 08:20:19.206 [info] Telemetry level is off
+2024-04-16 08:20:19.206 [info] Experiments are disabled, only manually opted experiments are active.
+2024-04-16 08:20:19.206 [info] Test server listening.
+2024-04-16 08:20:19.213 [info] > pyenv which python
+2024-04-16 08:20:19.213 [info] cwd: .
+2024-04-16 08:20:19.223 [info] > python -c "import sys;print(sys.executable)"
+2024-04-16 08:20:19.252 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-04-16 08:20:19.282 [info] Only Pylance is supported in untrusted workspaces, setting language server to None.
+2024-04-16 08:20:19.282 [info] Starting Jedi language server for super-nightfort-2d.
+2024-04-16 08:20:22.610 [info] Telemetry level is off
+2024-04-16 08:20:22.610 [info] Experiments are disabled, only manually opted experiments are active.
+2024-04-16 08:20:22.639 [info] Default formatter is set to null for workspace /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
+2024-04-16 08:20:22.653 [info] Test server listening.
+2024-04-16 08:20:22.659 [info] > conda info --json
+2024-04-16 08:20:22.666 [info] > hatch env show --json
+2024-04-16 08:20:22.666 [info] cwd: .
+2024-04-16 08:20:22.676 [info] > pyenv which python
+2024-04-16 08:20:22.676 [info] cwd: .
+2024-04-16 08:20:22.728 [info] Found: /bin/python --> /bin/python3.11
+2024-04-16 08:20:22.738 [info] Found: /bin/python3 --> /bin/python3.11
+2024-04-16 08:20:22.754 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-04-16 08:20:22.833 [info] Found: /sbin/python --> /sbin/python3.11
+2024-04-16 08:20:22.834 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-04-16 08:20:22.834 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-04-16 08:20:22.845 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-04-16 08:20:22.845 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-04-16 08:20:22.845 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-04-16 08:20:22.873 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-04-16 08:20:22.873 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-04-16 08:20:22.873 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-04-16 08:20:22.884 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-04-16 08:20:22.896 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-04-16 08:20:22.928 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-04-16 08:20:22.939 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-04-16 08:20:23.060 [info] Python interpreter path: /bin/python
+2024-04-16 08:20:23.878 [info] Starting Jedi language server for super-nightfort-2d.

@@ -1,0 +1,18 @@
+2024-04-26 15:01:57.905 [info] Log level: Info
+2024-04-26 15:01:57.906 [info] Validating found git in: "git"
+2024-04-26 15:01:57.906 [info] Using git "2.44.0" from "git"
+2024-04-26 15:01:57.914 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-26 15:01:57.929 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-26 15:01:57.942 [info] Open repository: /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
+2024-04-26 15:01:57.959 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-26 15:01:57.960 [info] > git config --get commit.template [10ms]
+2024-04-26 15:01:57.986 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-26 15:01:57.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-04-26 15:01:58.149 [info] > git status -z -uall [147ms]
+2024-04-26 15:01:58.163 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-04-26 15:01:58.168 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-04-26 15:01:58.172 [info] > git config --get commit.template [9ms]
+2024-04-26 15:01:58.182 [info] > git diff --name-status -z --diff-filter=ADMR 03d9c05cf4ea7c6508034148703040ab00d0c022...refs/remotes/origin/main [11ms]
+2024-04-26 15:01:58.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-04-26 15:01:58.311 [info] > git status -z -uall [119ms]
+2024-04-26 15:01:58.502 [info] > git check-ignore -v -z --stdin [2ms]
