@@ -42,9 +42,9 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>96</X>
+		<X>88</X>
 		<Y>16</Y>
-		<Width>1312</Width>
+		<Width>1316</Width>
 		<Height>1819</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
 		<SplitterVerticalFrac>0.25</SplitterVerticalFrac>

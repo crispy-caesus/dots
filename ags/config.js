@@ -144,6 +144,7 @@ function Top() {
         children: [
             Workspaces(),
             //ClientTitle(),
+            //Volume(),
             Volume(),
         ],
     })

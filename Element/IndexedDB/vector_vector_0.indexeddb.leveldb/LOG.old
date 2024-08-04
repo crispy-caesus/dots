@@ -1,0 +1,7 @@
+2024/07/21-16:56:51.156 1f807 Reusing MANIFEST /home/crispy/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/21-16:56:51.157 1f807 Recovering log #1132
+2024/07/21-16:56:51.159 1f807 Reusing old log /home/crispy/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/001132.log 
+2024/07/21-16:56:52.957 1f7d9 Level-0 table #1137: started
+2024/07/21-16:56:52.963 1f7d9 Level-0 table #1137: 983406 bytes OK
+2024/07/21-16:56:52.965 1f7d9 Delete type=0 #1132
+2024/07/21-16:56:52.965 1f7d9 Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)

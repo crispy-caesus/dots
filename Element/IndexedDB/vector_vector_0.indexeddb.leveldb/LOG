@@ -1,0 +1,8 @@
+2024/07/30-14:02:15.122 24e9 Reusing MANIFEST /home/crispy/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/30-14:02:15.122 24e9 Recovering log #1136
+2024/07/30-14:02:15.123 24e9 Reusing old log /home/crispy/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/001136.log 
+2024/07/30-14:02:15.475 24ed Compacting 1@1 + 1@2 files
+2024/07/30-14:02:15.497 24ed Generated table #1139@1: 8580 keys, 1132190 bytes
+2024/07/30-14:02:15.497 24ed Compacted 1@1 + 1@2 files => 1132190 bytes
+2024/07/30-14:02:15.498 24ed compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/07/30-14:02:21.836 24ed Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)

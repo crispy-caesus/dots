@@ -1,2 +1,3 @@
-2024/04/07-16:08:04.603 1785 Creating DB /home/crispy/.config/Electron/Session Storage since it was missing.
-2024/04/07-16:08:04.619 1785 Reusing MANIFEST /home/crispy/.config/Electron/Session Storage/MANIFEST-000001
+2024/07/17-17:09:26.265 119c2 Reusing MANIFEST /home/crispy/.config/Electron/Session Storage/MANIFEST-000001
+2024/07/17-17:09:26.266 119c2 Recovering log #3
+2024/07/17-17:09:26.267 119c2 Reusing old log /home/crispy/.config/Electron/Session Storage/000003.log 

@@ -1,0 +1,320 @@
+23:39:36.561: Platform: Wayland
+23:39:36.561: CPU Name: Intel(R) Core(TM) i5-1035G4 CPU @ 1.10GHz
+23:39:36.561: CPU Speed: 2908.990MHz
+23:39:36.561: Physical Cores: 4, Logical Cores: 8
+23:39:36.561: Physical Memory: 7537MB Total, 3745MB Free
+23:39:36.561: Kernel Version: Linux 6.9.7-arch1-1-surface
+23:39:36.561: Distribution: "Arch Linux" Unknown
+23:39:36.561: Desktop Environment: Hyprland (Hyprland)
+23:39:36.561: Session Type: wayland
+23:39:36.563: Qt Version: 6.7.2 (runtime), 6.7.1 (compiled)
+23:39:36.563: Portable mode: false
+23:39:36.594: OBS 30.1.2-2 (linux)
+23:39:36.594: ---------------------------------
+23:39:36.594: ---------------------------------
+23:39:36.594: audio settings reset:
+23:39:36.594: 	samples per sec: 48000
+23:39:36.594: 	speakers:        2
+23:39:36.594: 	max buffering:   960 milliseconds
+23:39:36.594: 	buffering type:  dynamically increasing
+23:39:36.596: ---------------------------------
+23:39:36.596: Initializing OpenGL...
+23:39:36.596: Using EGL/Wayland
+23:39:36.623: Initialized EGL 1.5
+23:39:36.634: Loading up OpenGL on adapter Intel Mesa Intel(R) Iris(R) Plus Graphics (ICL GT1.5)
+23:39:36.634: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.2-arch1.1, shading language 4.60
+23:39:36.664: ---------------------------------
+23:39:36.664: video settings reset:
+23:39:36.664: 	base resolution:   2736x1824
+23:39:36.664: 	output resolution: 2736x1824
+23:39:36.664: 	downscale filter:  Bicubic
+23:39:36.664: 	fps:               60/1
+23:39:36.664: 	format:            NV12
+23:39:36.664: 	YUV mode:          Rec. 709/Partial
+23:39:36.666: NV12 texture support enabled
+23:39:36.666: P010 texture support not available
+23:39:36.679: Audio monitoring device:
+23:39:36.679: 	name: Default
+23:39:36.679: 	id: default
+23:39:36.679: ---------------------------------
+23:39:36.685: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:39:36.691: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+23:39:36.697: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:39:36.697: Failed to initialize module 'decklink.so'
+23:39:36.820: [pipewire] Available captures:
+23:39:36.820: [pipewire]     - Desktop capture
+23:39:36.820: [pipewire]     - Window capture
+23:39:36.874: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+23:39:36.874: FFmpeg VAAPI H264 encoding not supported
+23:39:36.874: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+23:39:36.874: FFmpeg VAAPI AV1 encoding not supported
+23:39:36.874: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+23:39:36.874: FFmpeg VAAPI HEVC encoding not supported
+23:39:36.955: ---------------------------------
+23:39:36.955:   Loaded Modules:
+23:39:36.955:     text-freetype2.so
+23:39:36.955:     rtmp-services.so
+23:39:36.955:     obs-x264.so
+23:39:36.955:     obs-webrtc.so
+23:39:36.955:     obs-vst.so
+23:39:36.955:     obs-transitions.so
+23:39:36.955:     obs-qsv11.so
+23:39:36.955:     obs-outputs.so
+23:39:36.955:     obs-libfdk.so
+23:39:36.955:     obs-filters.so
+23:39:36.955:     obs-ffmpeg.so
+23:39:36.955:     linux-v4l2.so
+23:39:36.955:     linux-pulseaudio.so
+23:39:36.955:     linux-pipewire.so
+23:39:36.955:     linux-jack.so
+23:39:36.955:     linux-capture.so
+23:39:36.955:     linux-alsa.so
+23:39:36.955:     image-source.so
+23:39:36.955:     frontend-tools.so
+23:39:36.955:     decklink-output-ui.so
+23:39:36.955:     decklink-captions.so
+23:39:36.955: ---------------------------------
+23:39:36.955: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+23:39:36.955: ==== Startup complete ===============================================
+23:39:36.982: All scene data cleared
+23:39:36.982: ------------------------------------------------
+23:39:36.987: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.0) 15.0.0'
+23:39:36.987: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+23:39:36.987: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+23:39:36.987: [Loaded global audio device]: 'Desktop Audio'
+23:39:36.988: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.0) 15.0.0'
+23:39:36.988: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+23:39:36.988: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+23:39:36.988: [Loaded global audio device]: 'Mic/Aux'
+23:39:36.988: PipeWire initialized
+23:39:36.990: Switched to scene 'Scene'
+23:39:36.990: ------------------------------------------------
+23:39:36.990: Loaded scenes:
+23:39:36.990: - scene 'Scene':
+23:39:36.990:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+23:39:36.990: ------------------------------------------------
+23:39:37.041: [pipewire] Screencast session created
+23:39:37.084: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+23:39:37.099: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+23:39:37.555: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+23:39:37.555: 
+23:39:40.680: [pipewire] Asking for desktop
+23:39:40.693: [pipewire] desktop selected, setting up screencast
+23:39:40.697: [pipewire] Server version: 1.2.0
+23:39:40.697: [pipewire] Library version: 1.2.0
+23:39:40.697: [pipewire] Header version: 1.0.7
+23:39:40.697: [pipewire] Created stream 0x56388f6d8c10
+23:39:40.697: [pipewire] Stream 0x56388f6d8c10 state: "connecting" (error: none)
+23:39:40.697: [pipewire] Playing stream 0x56388f6d8c10
+23:39:40.697: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:39:40.704: [pipewire] Negotiated format:
+23:39:40.704: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:40.704: [pipewire]     Modifier: 0x0
+23:39:40.704: [pipewire]     Size: 1308x1792
+23:39:40.704: [pipewire]     Framerate: 0/1
+23:39:40.705: [pipewire] Negotiated format:
+23:39:40.705: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:40.705: [pipewire]     Modifier: 0x100000000000004
+23:39:40.705: [pipewire]     Size: 1308x1792
+23:39:40.705: [pipewire]     Framerate: 0/1
+23:39:40.712: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:39:40.776: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+23:39:40.776: [pipewire] Renegotiating stream
+23:39:40.777: [pipewire] Negotiated format:
+23:39:40.777: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:40.777: [pipewire]     Modifier: 0x100000000000004
+23:39:40.777: [pipewire]     Size: 1308x1792
+23:39:40.777: [pipewire]     Framerate: 0/1
+23:39:40.779: [pipewire] Negotiated format:
+23:39:40.779: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:40.779: [pipewire]     Modifier: 0x100000000000002
+23:39:40.779: [pipewire]     Size: 1308x1792
+23:39:40.779: [pipewire]     Framerate: 0/1
+23:39:56.413: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+23:39:59.812: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:39:59.812: [pipewire] Negotiated format:
+23:39:59.812: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.812: [pipewire]     Modifier: 0x100000000000002
+23:39:59.812: [pipewire]     Size: 1733x1792
+23:39:59.812: [pipewire]     Framerate: 0/1
+23:39:59.816: [pipewire] Negotiated format:
+23:39:59.816: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.816: [pipewire]     Modifier: 0x100000000000002
+23:39:59.816: [pipewire]     Size: 1733x1792
+23:39:59.816: [pipewire]     Framerate: 0/1
+23:39:59.829: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:39:59.835: [pipewire] Negotiated format:
+23:39:59.835: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.835: [pipewire]     Modifier: 0x100000000000002
+23:39:59.835: [pipewire]     Size: 2306x1792
+23:39:59.835: [pipewire]     Framerate: 0/1
+23:39:59.839: [pipewire] Negotiated format:
+23:39:59.839: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.839: [pipewire]     Modifier: 0x100000000000002
+23:39:59.839: [pipewire]     Size: 2306x1792
+23:39:59.839: [pipewire]     Framerate: 0/1
+23:39:59.913: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:39:59.913: [pipewire] Negotiated format:
+23:39:59.913: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.913: [pipewire]     Modifier: 0x100000000000002
+23:39:59.913: [pipewire]     Size: 2523x1792
+23:39:59.913: [pipewire]     Framerate: 0/1
+23:39:59.919: [pipewire] Negotiated format:
+23:39:59.919: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.919: [pipewire]     Modifier: 0x100000000000002
+23:39:59.919: [pipewire]     Size: 2523x1792
+23:39:59.919: [pipewire]     Framerate: 0/1
+23:39:59.932: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:39:59.934: [pipewire] Negotiated format:
+23:39:59.934: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.934: [pipewire]     Modifier: 0x100000000000002
+23:39:59.934: [pipewire]     Size: 2559x1792
+23:39:59.934: [pipewire]     Framerate: 0/1
+23:39:59.937: [pipewire] Negotiated format:
+23:39:59.937: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.937: [pipewire]     Modifier: 0x100000000000002
+23:39:59.937: [pipewire]     Size: 2559x1792
+23:39:59.937: [pipewire]     Framerate: 0/1
+23:39:59.952: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:39:59.952: [pipewire] Negotiated format:
+23:39:59.952: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.952: [pipewire]     Modifier: 0x100000000000002
+23:39:59.952: [pipewire]     Size: 2568x1792
+23:39:59.952: [pipewire]     Framerate: 0/1
+23:39:59.955: [pipewire] Negotiated format:
+23:39:59.955: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.955: [pipewire]     Modifier: 0x100000000000002
+23:39:59.955: [pipewire]     Size: 2568x1792
+23:39:59.955: [pipewire]     Framerate: 0/1
+23:39:59.969: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:39:59.970: [pipewire] Negotiated format:
+23:39:59.970: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.970: [pipewire]     Modifier: 0x100000000000002
+23:39:59.970: [pipewire]     Size: 2584x1792
+23:39:59.970: [pipewire]     Framerate: 0/1
+23:39:59.970: [pipewire] Negotiated format:
+23:39:59.970: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.970: [pipewire]     Modifier: 0x100000000000002
+23:39:59.970: [pipewire]     Size: 2584x1792
+23:39:59.970: [pipewire]     Framerate: 0/1
+23:39:59.976: [pipewire] Negotiated format:
+23:39:59.976: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.976: [pipewire]     Modifier: 0x100000000000002
+23:39:59.976: [pipewire]     Size: 2584x1792
+23:39:59.976: [pipewire]     Framerate: 0/1
+23:39:59.977: [pipewire] Negotiated format:
+23:39:59.977: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.977: [pipewire]     Modifier: 0x100000000000002
+23:39:59.977: [pipewire]     Size: 2597x1792
+23:39:59.977: [pipewire]     Framerate: 0/1
+23:39:59.993: [pipewire] Negotiated format:
+23:39:59.993: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.993: [pipewire]     Modifier: 0x100000000000002
+23:39:59.993: [pipewire]     Size: 2597x1792
+23:39:59.993: [pipewire]     Framerate: 0/1
+23:39:59.993: [pipewire] Negotiated format:
+23:39:59.993: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:39:59.993: [pipewire]     Modifier: 0x100000000000002
+23:39:59.993: [pipewire]     Size: 2608x1792
+23:39:59.993: [pipewire]     Framerate: 0/1
+23:40:00.009: [pipewire] Negotiated format:
+23:40:00.009: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.009: [pipewire]     Modifier: 0x100000000000002
+23:40:00.009: [pipewire]     Size: 2608x1792
+23:40:00.009: [pipewire]     Framerate: 0/1
+23:40:00.010: [pipewire] Negotiated format:
+23:40:00.010: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.010: [pipewire]     Modifier: 0x100000000000002
+23:40:00.010: [pipewire]     Size: 2616x1792
+23:40:00.010: [pipewire]     Framerate: 0/1
+23:40:00.026: [pipewire] Negotiated format:
+23:40:00.026: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.026: [pipewire]     Modifier: 0x100000000000002
+23:40:00.026: [pipewire]     Size: 2616x1792
+23:40:00.026: [pipewire]     Framerate: 0/1
+23:40:00.026: [pipewire] Negotiated format:
+23:40:00.026: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.026: [pipewire]     Modifier: 0x100000000000002
+23:40:00.026: [pipewire]     Size: 2624x1792
+23:40:00.026: [pipewire]     Framerate: 0/1
+23:40:00.042: [pipewire] Negotiated format:
+23:40:00.042: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.042: [pipewire]     Modifier: 0x100000000000002
+23:40:00.042: [pipewire]     Size: 2624x1792
+23:40:00.042: [pipewire]     Framerate: 0/1
+23:40:00.042: [pipewire] Negotiated format:
+23:40:00.042: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.042: [pipewire]     Modifier: 0x100000000000002
+23:40:00.042: [pipewire]     Size: 2629x1792
+23:40:00.042: [pipewire]     Framerate: 0/1
+23:40:00.058: [pipewire] Negotiated format:
+23:40:00.058: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.058: [pipewire]     Modifier: 0x100000000000002
+23:40:00.058: [pipewire]     Size: 2629x1792
+23:40:00.058: [pipewire]     Framerate: 0/1
+23:40:00.059: [pipewire] Negotiated format:
+23:40:00.059: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.059: [pipewire]     Modifier: 0x100000000000002
+23:40:00.059: [pipewire]     Size: 2633x1792
+23:40:00.059: [pipewire]     Framerate: 0/1
+23:40:00.075: [pipewire] Negotiated format:
+23:40:00.075: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.075: [pipewire]     Modifier: 0x100000000000002
+23:40:00.075: [pipewire]     Size: 2633x1792
+23:40:00.075: [pipewire]     Framerate: 0/1
+23:40:00.076: [pipewire] Negotiated format:
+23:40:00.076: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.076: [pipewire]     Modifier: 0x100000000000002
+23:40:00.076: [pipewire]     Size: 2637x1792
+23:40:00.076: [pipewire]     Framerate: 0/1
+23:40:00.092: [pipewire] Negotiated format:
+23:40:00.092: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.092: [pipewire]     Modifier: 0x100000000000002
+23:40:00.092: [pipewire]     Size: 2637x1792
+23:40:00.092: [pipewire]     Framerate: 0/1
+23:40:00.105: [pipewire] Negotiated format:
+23:40:00.105: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.105: [pipewire]     Modifier: 0x100000000000002
+23:40:00.105: [pipewire]     Size: 2639x1792
+23:40:00.105: [pipewire]     Framerate: 0/1
+23:40:00.109: [pipewire] Negotiated format:
+23:40:00.109: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.109: [pipewire]     Modifier: 0x100000000000002
+23:40:00.109: [pipewire]     Size: 2639x1792
+23:40:00.109: [pipewire]     Framerate: 0/1
+23:40:00.122: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:40:00.122: [pipewire] Negotiated format:
+23:40:00.122: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.122: [pipewire]     Modifier: 0x100000000000002
+23:40:00.122: [pipewire]     Size: 2642x1792
+23:40:00.122: [pipewire]     Framerate: 0/1
+23:40:00.127: [pipewire] Negotiated format:
+23:40:00.127: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.127: [pipewire]     Modifier: 0x100000000000002
+23:40:00.127: [pipewire]     Size: 2642x1792
+23:40:00.127: [pipewire]     Framerate: 0/1
+23:40:00.139: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:40:00.139: [pipewire] Negotiated format:
+23:40:00.139: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.139: [pipewire]     Modifier: 0x100000000000002
+23:40:00.139: [pipewire]     Size: 2643x1792
+23:40:00.139: [pipewire]     Framerate: 0/1
+23:40:00.144: [pipewire] Negotiated format:
+23:40:00.144: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:00.144: [pipewire]     Modifier: 0x100000000000002
+23:40:00.144: [pipewire]     Size: 2643x1792
+23:40:00.144: [pipewire]     Framerate: 0/1
+23:40:33.263: [pipewire] Stream 0x56388f6d8c10 state: "paused" (error: none)
+23:40:34.163: [pipewire] Stream 0x56388f6d8c10 state: "streaming" (error: none)
+23:40:34.169: [pipewire] Negotiated format:
+23:40:34.169: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:34.169: [pipewire]     Modifier: 0x100000000000002
+23:40:34.169: [pipewire]     Size: 2632x1792
+23:40:34.169: [pipewire]     Framerate: 0/1
+23:40:34.175: [pipewire] Negotiated format:
+23:40:34.175: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:40:34.175: [pipewire]     Modifier: 0x100000000000002
+23:40:34.175: [pipewire]     Size: 2632x1792
+23:40:34.175: [pipewire]     Framerate: 0/1
+23:40:34.970: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+23:40:38.562: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.

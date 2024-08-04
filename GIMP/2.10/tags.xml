@@ -1225,9 +1225,6 @@
   <resource identifier="${gimp_data_dir}/palettes/Ega.gpl" checksum="a8842755eb6e9534d89bc4dfa360ea91">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/elementary.gpl" checksum="ae5b36415496922dd83a5bb532be3b73">
-  </resource>
-
   <resource identifier="${gimp_data_dir}/palettes/Firecode.gpl" checksum="31da06a142dbb7e290ecae399da8c198">
   </resource>
 
@@ -1850,6 +1847,24 @@
   </resource>
 
   <resource identifier="Noto Sans Arabic Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Arabic UI Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian" checksum="(null)">
@@ -3560,6 +3575,9 @@
   </resource>
 
   <resource identifier="Noto Traditional Nushu Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Znamenny Musical Notation" checksum="(null)">
   </resource>
 
   <resource identifier="P052" checksum="(null)">

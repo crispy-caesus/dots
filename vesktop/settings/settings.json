@@ -4,8 +4,8 @@
     "autoUpdateNotification": true,
     "useQuickCss": true,
     "themeLinks": [
-        "https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css",
-        "https://raw.githubusercontent.com/catppuccin/discord/main/discord.user.css"
+        "#https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css",
+        "#https://raw.githubusercontent.com/catppuccin/discord/main/discord.user.css"
     ],
     "enabledThemes": [
         "zFloat.theme.css"
@@ -33,7 +33,7 @@
             "enabled": false
         },
         "MessageAccessoriesAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessageDecorationsAPI": {
             "enabled": false
@@ -42,7 +42,7 @@
             "enabled": true
         },
         "MessagePopoverAPI": {
-            "enabled": false
+            "enabled": true
         },
         "NoticesAPI": {
             "enabled": true
@@ -51,7 +51,8 @@
             "enabled": false
         },
         "NoTrack": {
-            "enabled": true
+            "enabled": true,
+            "disableAnalytics": true
         },
         "Settings": {
             "enabled": true,
@@ -137,7 +138,8 @@
             "enabled": false
         },
         "Experiments": {
-            "enabled": false
+            "enabled": true,
+            "toolbarDevMenu": false
         },
         "F8Break": {
             "enabled": false
@@ -213,7 +215,7 @@
             "enabled": false
         },
         "MessageLogger": {
-            "enabled": true,
+            "enabled": false,
             "deleteStyle": "text",
             "ignoreBots": false,
             "ignoreSelf": false,
@@ -236,7 +238,7 @@
             "enabled": false
         },
         "Moyai": {
-            "enabled": true,
+            "enabled": false,
             "volume": 0.5,
             "quality": "Normal",
             "triggerWhenUnfocused": true,
@@ -256,7 +258,7 @@
             "enabled": false
         },
         "NoF1": {
-            "enabled": false
+            "enabled": true
         },
         "NoMosaic": {
             "enabled": false
@@ -298,9 +300,6 @@
             "enabled": false
         },
         "OpenInApp": {
-            "enabled": false
-        },
-        "Party mode 🎉": {
             "enabled": false
         },
         "PermissionFreeWill": {
@@ -375,9 +374,6 @@
         "ServerListIndicators": {
             "enabled": false
         },
-        "ServerProfile": {
-            "enabled": false
-        },
         "ShikiCodeblocks": {
             "enabled": false
         },
@@ -391,9 +387,6 @@
             "enabled": false
         },
         "ShowMeYourName": {
-            "enabled": false
-        },
-        "ShowTimeouts": {
             "enabled": false
         },
         "SilentMessageToggle": {
@@ -430,7 +423,11 @@
             "enabled": false
         },
         "Translate": {
-            "enabled": false
+            "enabled": true,
+            "autoTranslate": false,
+            "showChatBarButton": false,
+            "receivedInput": "auto",
+            "receivedOutput": "en"
         },
         "TypingIndicator": {
             "enabled": false
@@ -497,12 +494,115 @@
             "enabled": false
         },
         "BetterSettings": {
-            "enabled": false
+            "enabled": true,
+            "disableFade": true,
+            "eagerLoad": true
         },
         "FriendsSince": {
             "enabled": false
         },
         "OverrideForumDefaults": {
+            "enabled": false
+        },
+        "PartyMode": {
+            "enabled": false
+        },
+        "ServerInfo": {
+            "enabled": false
+        },
+        "ShowHiddenThings": {
+            "enabled": false
+        },
+        "MessageUpdaterAPI": {
+            "enabled": true
+        },
+        "AppleMusicRichPresence": {
+            "enabled": false
+        },
+        "AutomodContext": {
+            "enabled": true
+        },
+        "BetterSessions": {
+            "enabled": true,
+            "backgroundCheck": false
+        },
+        "CopyEmojiMarkdown": {
+            "enabled": false
+        },
+        "CtrlEnterSend": {
+            "enabled": false
+        },
+        "CustomIdle": {
+            "enabled": false
+        },
+        "DontRoundMyTimestamps": {
+            "enabled": false
+        },
+        "ImageLink": {
+            "enabled": false
+        },
+        "ImplicitRelationships": {
+            "enabled": false
+        },
+        "MaskedLinkPaste": {
+            "enabled": false
+        },
+        "MessageLatency": {
+            "enabled": false
+        },
+        "UserSettingsAPI": {
+            "enabled": true
+        },
+        "NoDefaultHangStatus": {
+            "enabled": false
+        },
+        "NoOnboardingDelay": {
+            "enabled": false
+        },
+        "NoServerEmojis": {
+            "enabled": false
+        },
+        "PauseInvitesForever": {
+            "enabled": false
+        },
+        "ReplaceGoogleSearch": {
+            "enabled": false
+        },
+        "ReplyTimestamp": {
+            "enabled": false
+        },
+        "Summaries": {
+            "enabled": true,
+            "summaryExpiryThresholdDays": 3
+        },
+        "ShowAllRoles": {
+            "enabled": false
+        },
+        "ShowTimeoutDuration": {
+            "enabled": false
+        },
+        "StreamerModeOnStream": {
+            "enabled": false
+        },
+        "UnlockedAvatarZoom": {
+            "enabled": false
+        },
+        "ValidReply": {
+            "enabled": false
+        },
+        "VoiceDownload": {
+            "enabled": false
+        },
+        "WatchTogetherAdblock": {
+            "enabled": false
+        },
+        "WebScreenShareFixes": {
+            "enabled": true
+        },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
+        "MentionAvatars": {
             "enabled": false
         }
     },
@@ -516,6 +616,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1711826402968
+        "settingsSyncVersion": 1722595399795
     }
 }
