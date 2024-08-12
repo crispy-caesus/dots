@@ -1,9 +1,0 @@
-2024-05-22 09:02:59.860 [info] Telemetry level is off
-2024-05-22 09:02:59.860 [info] Experiments are disabled, only manually opted experiments are active.
-2024-05-22 09:02:59.898 [info] Default formatter is set to null for workspace /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
-2024-05-22 09:02:59.915 [info] Test server listening.
-2024-05-22 09:02:59.939 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
-2024-05-22 09:02:59.997 [info] Python interpreter path: /bin/python
-2024-05-22 09:03:00.009 [info] > pyenv which python
-2024-05-22 09:03:00.009 [info] cwd: .
-2024-05-22 09:03:01.306 [info] Starting Jedi language server for super-nightfort-2d.

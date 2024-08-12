@@ -1,8 +1,0 @@
-2024-05-22 09:27:17.001 [info] Telemetry level is off
-2024-05-22 09:27:17.001 [info] Experiments are disabled, only manually opted experiments are active.
-2024-05-22 09:27:17.001 [info] Default formatter is set to null for workspace /home/crispy/Documents/coding/crispy-caesi/super-nightfort-2d
-2024-05-22 09:27:17.001 [info] Test server listening.
-2024-05-22 09:27:17.002 [info] Python interpreter path: /bin/python
-2024-05-22 09:27:17.061 [info] > pyenv which python
-2024-05-22 09:27:17.061 [info] cwd: .
-2024-05-22 09:27:17.901 [info] Starting Jedi language server for super-nightfort-2d.

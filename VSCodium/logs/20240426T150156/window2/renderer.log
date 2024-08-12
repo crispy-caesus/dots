@@ -1,3 +1,0 @@
-2024-04-26 15:02:08.317 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/crispy/Downloads/journalctl","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-04-26 15:02:09.415 [info] Started local extension host with pid 6493.
-2024-04-26 15:02:12.214 [info] [perf] Render performance baseline is 33ms

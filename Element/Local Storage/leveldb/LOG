@@ -1,6 +1,0 @@
-2024/07/30-14:02:14.699 24e9 Reusing MANIFEST /home/crispy/.config/Element/Local Storage/leveldb/MANIFEST-000001
-2024/07/30-14:02:14.703 24e9 Recovering log #23
-2024/07/30-14:02:14.704 24e9 Reusing old log /home/crispy/.config/Element/Local Storage/leveldb/000023.log 
-2024/07/31-22:46:17.313 24eb Level-0 table #27: started
-2024/07/31-22:46:17.325 24eb Level-0 table #27: 9905 bytes OK
-2024/07/31-22:46:17.334 24eb Delete type=0 #23

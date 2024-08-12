@@ -1,5 +1,0 @@
-2024/07/30-14:02:15.106 24e9 Reusing MANIFEST /home/crispy/.config/Element/Session Storage/MANIFEST-000001
-2024/07/30-14:02:15.106 24e9 Recovering log #4
-2024/07/30-14:02:15.107 24e9 (ignoring error) /home/crispy/.config/Element/Session Storage/000004.log: dropping 4117 bytes; Corruption: checksum mismatch
-2024/07/30-14:02:15.107 24e9 (ignoring error) /home/crispy/.config/Element/Session Storage/000004.log: dropping 151 bytes; Corruption: missing start of fragmented record(2)
-2024/07/30-14:02:15.107 24e9 Reusing old log /home/crispy/.config/Element/Session Storage/000004.log 
