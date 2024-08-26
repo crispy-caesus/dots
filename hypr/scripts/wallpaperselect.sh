@@ -29,10 +29,8 @@ if [ ! -z "${RofiSel}" ] ; then
     --transition-duration 2
 
   rm "${wallPath}/current.set"
-  rm "/usr/share/sddm/themes/corners/backgrounds/background.png"
 
   ln -s $selected "${wallPath}/current.set"
-  ln -s $selected "/usr/share/sddm/themes/corners/backgrounds/background.png"
 
   dunstify "Changed Wallpaper to ${RofiSel}" -a "Wallpaper" -i "${wallPath}/${RofiSel}" -r 91190 -t 2200
 fi

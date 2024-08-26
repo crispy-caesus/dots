@@ -179,8 +179,9 @@ function Bar(monitor = 0) {
         name: `bar-${monitor}`, // name has to be unique
         class_name: "bar",
         monitor,
-        anchor: ["left", "top", "bottom"],
+        anchor: ["right", "top", "bottom"],
         exclusivity: "exclusive",
+        margins: [5, 5, 5, 0],
         child: Widget.CenterBox({
             vertical: true,
             start_widget: Top(),

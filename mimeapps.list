@@ -2,8 +2,6 @@
 video/mp4=mpv.desktop
 video/x-matroska=mpv.desktop
 x-scheme-handler/lunarclient=launcher.desktop
-x-scheme-handler/discord-562286213059444737=launcher.desktop
-application/octet-stream=org.gnome.TextEditor.desktop
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-ZQLXK2.desktop
 message/rfc822=userapp-Thunderbird-ZQLXK2.desktop
@@ -12,16 +10,12 @@ image/png=feh.desktop
 image/jpeg=feh.desktop
 
 [Added Associations]
-video/mp4=mpv.desktop;org.gnome.Totem.desktop;smplayer_enqueue.desktop;kawaii-player.desktop;org.kde.haruna.desktop;
-video/x-matroska=smplayer_enqueue.desktop;
-text/plain=org.gnome.TextEditor.desktop;
-application/x-shellscript=org.gnome.TextEditor.desktop;
-application/octet-stream=org.gnome.TextEditor.desktop;
-text/vnd.trolltech.linguist=code-oss.desktop;
+video/mp4=mpv.desktop;
+video/x-matroska=mpv.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-ZQLXK2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-ZQLXK2.desktop;
-image/gif=feh.desktop;org.gnome.Loupe.desktop;
+image/gif=feh.desktop;
 image/png=gimp.desktop;feh.desktop;swappy.desktop;
-image/jpeg=feh.desktop;swappy.desktop;org.gnome.Loupe.desktop;
-image/jpg=feh.desktop;swappy.desktop;org.gnome.Loupe.desktop;
+image/jpeg=feh.desktop;swappy.desktop;
+image/jpg=feh.desktop;swappy.desktop;
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;zathura.desktop;

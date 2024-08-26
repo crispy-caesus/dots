@@ -925,7 +925,7 @@ require('lazy').setup({
     vim.keymap.set('n', '<leader>ofh', ':ObsidianFollowLink hsplit<cr>', { desc = '[O]bsidian [F]ollow Link [H]orizontally' }),
     vim.keymap.set('n', '<leader>ob', ':ObsidianBacklinks<cr>', { desc = '[O]bsidian [B]acklinks' }),
     vim.keymap.set('n', '<leader>os', ':ObsidianSearch<cr>', { desc = '[O]bsidian [S]earch' }),
-    vim.keymap.set('n', '<leader>oe', ':ObsidianExtractNote<cr>', { desc = '[O]bsidian [E]xtract' }),
+    vim.keymap.set('v', '<leader>oe', ':ObsidianExtractNote<cr>', { desc = '[O]bsidian [E]xtract' }),
     vim.keymap.set('n', '<leader>or', ':ObsidianRename<cr>', { desc = '[O]bsidian [R]ename' }),
     vim.keymap.set('n', '<leader>ot', ':ObsidianTOC<cr>', { desc = '[O]bsidian [T]OC' }),
   },
