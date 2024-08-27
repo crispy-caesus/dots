@@ -21,6 +21,7 @@ function Workspaces() {
     return Widget.Box({
         class_name: "workspaces",
         vertical: true,
+        vpack: "center",
         children: workspaces,
     })
 }
@@ -33,14 +34,23 @@ function ClientTitle() {
     })
 }
 
-const date = Variable("", {
+const time = Variable("", {
     poll: [1000, `date +'%H\n%M'`],
 })
-
+const date = Variable("", {
+    poll: [1000, `date +'%d\n%m'`],
+})
 
 function Clock() {
     return Widget.Label({
         class_name: "clock",
+        vpack: "center",
+        label: time.bind(),
+    })
+}
+function Date() {
+    return Widget.Label({
+        class_name: "date",
         vpack: "center",
         label: date.bind(),
     })
@@ -78,9 +88,9 @@ function Volume() {
     })
 
     const slider = Widget.Slider({
-        vexpand: true,
         vertical: true,
         inverted: true,
+        expand: true,
         draw_value: false,
         on_change: ({ value }) => audio.speaker.volume = value,
         setup: self => self.hook(audio.speaker, () => {
@@ -90,8 +100,8 @@ function Volume() {
 
     return Widget.Box({
         vertical: true,
+        vpack: "start",
         class_name: "volume",
-        css: "min-height: 180px",
         children: [icon, slider],
     })
 }
@@ -135,6 +145,10 @@ function SysTray() {
     })
 }
 
+const Separator = Widget.Separator({
+    vertical: true,
+    class_name: "separator",
+})
 
 // layout of the bar
 function Top() {
@@ -142,7 +156,6 @@ function Top() {
         vertical: true,
         spacing: 8,
         children: [
-            Workspaces(),
             //ClientTitle(),
             //Volume(),
             Volume(),
@@ -155,8 +168,9 @@ function Center() {
         vertical: true,
         spacing: 8,
         children: [
-            Media(),
+            //Media(),
             //Notification(),
+            Workspaces(),
         ],
     })
 }
@@ -169,6 +183,8 @@ function Bottom() {
         children: [
             BatteryLabel(),
             SysTray(),
+            Date(),
+            Separator,
             Clock(),
         ],
     })

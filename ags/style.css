@@ -2,6 +2,7 @@ window.bar {
     background-color: @theme_bg_color;
     color: @theme_fg_color;
     border-radius: 10px;
+    opacity: 0.85;
 }
 
 button {
@@ -41,4 +42,19 @@ label {
 
 .battery {
     padding: 10px;
+}
+
+.clock {
+    padding-bottom: 0.5em;
+}
+
+.volume {
+    padding-top: 1em;
+    min-height: 20em;
+}
+
+.separator {
+    padding-left: 0.5em;
+    padding-right: .5em;
+    background-color: rgba(255, 255, 255, 1);
 }
