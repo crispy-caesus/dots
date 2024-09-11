@@ -4,7 +4,7 @@ swww query
 if [ $? -eq 1 ]; then
   swww-daemon --format xrgb &
 
-  swww img ~/.config/swww/current.set \
+  swww restore\
     --transition-type "wipe" \
     --transition-duration 2
 fi

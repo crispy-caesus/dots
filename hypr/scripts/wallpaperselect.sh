@@ -3,7 +3,7 @@
 # set variables
 ScrDir=`dirname "$(realpath "$0")"`
 RofiConf="${XDG_CONFIG_HOME:-$HOME/.config}/rofi/wallpaperselect.rasi"
-wallPath="${XDG_CONFIG_HOME:-$HOME/.config}/swww"
+wallPath="${HOME}/Documents/tagstudio/wallpapers"
 
 # scale for monitor x res
 x_monres=$(hyprctl -j monitors | jq '.[] | select(.focused==true) | .width')
