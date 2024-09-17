@@ -4,4 +4,6 @@ if status is-interactive
     starship init fish | source
     
     set -gx PATH $PATH ~/.local/bin/
+
+    source ~/.config/fish/functions/bindings.fish
 end
