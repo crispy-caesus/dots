@@ -5,7 +5,6 @@
 font=Cozette 11
 format=<b>%a ⏵</b> %s\n%b
 sort=-time
-output=DP-2
 layer=overlay
 anchor=top-center
 background-color=#2e3440
@@ -20,6 +19,11 @@ icons=1
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
+max-history=10
+
+on-button-left=invoke-action
+on-button-right=dismiss
+on-touch=invoke-action
 
 [urgency=normal]
 border-color=#d08770
@@ -28,11 +32,11 @@ border-color=#d08770
 border-color=#bf616a
 default-timeout=0
 
-[app-name=lightcord]
+[app-name=vesktop]
 border-color=#88c0d0
 
 [summary~="log-.*"]
 border-color=#a3be8c
 
-[app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
+[app-name=vesktop summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
 invisible=1
