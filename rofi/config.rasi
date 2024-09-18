@@ -180,4 +180,4 @@ configuration {
 */
 }
 
-
+@theme "~/.config/rofi/launchers/type-3/style-4.rasi"
