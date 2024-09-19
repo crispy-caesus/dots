@@ -20,10 +20,11 @@ max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
 max-history=10
+layer=overlay
 
-on-button-left=invoke-action
+on-button-left=invoke-default-action
 on-button-right=dismiss
-on-touch=invoke-action
+on-touch=invoke-default-action
 
 [urgency=normal]
 border-color=#d08770
