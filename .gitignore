@@ -47,6 +47,7 @@
 !systemd/
 !TagStudio/
 !Thunar/
+!tmux/
 !user-dirs.dirs
 !user-dirs.locale
 !vesktop/settings/
