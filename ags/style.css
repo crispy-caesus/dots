@@ -54,7 +54,12 @@ label {
 
 .volume {
     padding-top: 1em;
-    min-height: 20em;
+    min-height: 15em;
+}
+
+.brightness {
+    min-height: 15em;
+    padding-bottom: 1em;
 }
 
 .separator {

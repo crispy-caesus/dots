@@ -3,6 +3,7 @@ const mpris = await Service.import("mpris")
 const audio = await Service.import("audio")
 const battery = await Service.import("battery")
 const systemtray = await Service.import("systemtray")
+import brightness from "./brightness.js"
 
 
 // widgets can be only assigned as a child in one container
@@ -132,6 +133,19 @@ function Volume() {
     })
 }
 
+function Brightness() {
+    const slider = Widget.Slider({
+        vertical: true,
+        inverted: true,
+        expand: true,
+        draw_value: false,
+        class_name: "brightness",
+        on_change: self => brightness.screen_value = self.value,
+        value: brightness.bind('screen-value'),
+    });
+    return slider
+}
+
 
 function BatteryLabel() {
     const value = battery.bind("percent").as(p => p > 0 ? p / 100 : 0)
@@ -185,6 +199,7 @@ function Top() {
             //ClientTitle(),
             //Volume(),
             Volume(),
+            Brightness(),
         ],
     })
 }
