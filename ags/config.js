@@ -38,7 +38,13 @@ const time = Variable("", {
     poll: [1000, `date +'%H\n%M'`],
 })
 const date = Variable("", {
-    poll: [1000, `date +'%d\n%m'`],
+    poll: [1000, `date +'%m/%d'`],
+})
+const day = Variable("", {
+    poll: [1000, `date +'%d'`],
+})
+const month = Variable("", {
+    poll: [1000, `date +'%m'`],
 })
 
 function Clock() {
@@ -53,6 +59,26 @@ function Date() {
         class_name: "date",
         vpack: "center",
         label: date.bind(),
+    })
+}
+
+function DateTime() {
+    return Widget.Box({
+        vertical: true,
+        vpack: "center",
+        children: [
+            Widget.Label({
+                class_name: "time",
+                vpack: "center",
+                label: time.bind(),
+            }),
+            Widget.Label({
+                class_name: "date2",
+                vpack: "center",
+                label: date.bind(),
+            }),
+
+        ]
     })
 }
 
@@ -117,7 +143,7 @@ function BatteryLabel() {
         vertical: true,
         visible: battery.bind("available"),
         children: [
-            Widget.Icon({ icon }),
+            Widget.Icon({ class_name: "icon", icon }),
             Widget.LevelBar({
                 vertical: true,
                 inverted: true,
@@ -183,9 +209,7 @@ function Bottom() {
         children: [
             BatteryLabel(),
             SysTray(),
-            Date(),
-            Separator,
-            Clock(),
+            DateTime(),
         ],
     })
 }

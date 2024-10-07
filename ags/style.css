@@ -44,6 +44,10 @@ label {
     padding: 10px;
 }
 
+.icon {
+    padding-bottom: 5px;
+}
+
 .clock {
     padding-bottom: 0.5em;
 }
@@ -57,4 +61,13 @@ label {
     padding-left: 0.5em;
     padding-right: .5em;
     background-color: rgba(255, 255, 255, 1);
+}
+
+.time {
+    font-size: 12;
+}
+
+.date2 {
+    font-size: 8;
+    padding-bottom: 5px;
 }
