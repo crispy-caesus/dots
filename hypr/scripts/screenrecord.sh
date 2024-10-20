@@ -12,9 +12,9 @@ fileextention="mp4"
 output="-o DP-2"  # Default output
 
 # Parse options using getopts
-while getopts "a:e:o:" flag; do  # ':' for options with arguments
+while getopts "ae:o:" flag; do  # ':' for options with arguments
   case "${flag}" in
-    a) flags="${flags} -a${OPTARG}";;            # Append the -a flag
+    a) flags="${flags} -a=$(pactl get-default-sink).monitor";;            # Append the -a flag
     e) fileextention=${OPTARG};;            # Set the file format from -f option
     o) output="-o ${OPTARG}";;           # Set the output device from -o option
     *) echo "Invalid option"; exit 1;;   # Handle invalid options
